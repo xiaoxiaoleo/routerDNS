@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding=utf-8
-# code by 92rz.com
-# last modify time 2015-12-22
+# code by 92ez.com
+# create time 2015-12-22
 
 import Queue
 from threading import Thread
+import requests
 import time
 import re
 import sys
-import requests
 
 def GetCurrentTime():
     return time.strftime('%Y/%m/%d %H:%M:%S',time.localtime(time.time()))
@@ -119,9 +119,10 @@ def setDNS(host):
             return
 
 if __name__ == '__main__':
-    print '\n-----------------------------------------------\n'
-    print '   SET DNS FOR ZTE ROUTER BY THIS AUTO SCRIPT       '
-    print '\n-----------------------------------------------\n'
+    print '\n----------------------------------------\n'
+    print '   SET DNS FOR ZTE ROUTER BY PYTHON       '
+    print '         http://www.92ez.com       '
+    print '\n----------------------------------------\n'
 
     global dns1
     global dns2
@@ -129,8 +130,8 @@ if __name__ == '__main__':
     global SETTHREAD
 
 
-    dns1 = '221.229.166.158'
-    dns2 = '114.114.114.114'
+    dns1 = '114.114.114.114'
+    dns2 = '8.8.8.8'
     dns3 = '192.168.1.1'
 
     print '> DNS1 : '+dns1
