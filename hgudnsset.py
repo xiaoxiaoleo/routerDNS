@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
 # code by 92ez.com
+# author kbdancer
 # create time 2015-12-22
 
 import Queue
