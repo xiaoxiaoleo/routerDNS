@@ -60,6 +60,10 @@ def setDNS(host):
     username = "telnetadmin"
     password = "telnetadmin"
 
+    # another account
+    # username = "e8ehome"
+    # password = "e8ehome"
+
     telnetTime = 5
     cmdTime = 5
 
