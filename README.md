@@ -8,4 +8,5 @@ hgudnsset.py 针对华勤系列光猫的DNS批量扫描修改脚本
 需要安装requests模块
 ####如何运行
 <code>python ztednsset.py</code>
+	
 <code>python ztednsset.py</code>
